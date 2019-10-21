@@ -1,0 +1,23 @@
+{
+  "name": "github-package-test",
+  "version": "1.0.0",
+  "description": "My sandbox of GitHub Package registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macrat/github-package-test.git"
+  },
+  "author": "MacRat <m@crat.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macrat/github-package-test/issues"
+  },
+  "homepage": "https://github.com/macrat/github-package-test#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@macrat"
+  }
+}
